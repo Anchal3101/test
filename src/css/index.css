@@ -129,7 +129,7 @@ input {
     font-weight: bold;
     line-height: 26px;
 
-    background: #2CA4D8;
+    background: #f1f3f4;
     box-shadow: 0px 2px 20px rgba(44, 164, 216, 0.2);
     border-radius: 10px;
     letter-spacing: 1.5px;
@@ -143,8 +143,8 @@ input {
     padding: 6px 16px;
     gap: 10px;
 
-    border: 1px solid #2CA4D8;
-    color: #2CA4D8;
+    border: 1px solid #fafafa;
+    color: #e9eff1;
     font-size: 14px;
     font-weight: bold;
     line-height: 26px;

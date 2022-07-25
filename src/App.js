@@ -480,7 +480,7 @@ function App() {
                                 <button id="view-profile-button">VIEW PROFILE</button>
                             </div>
                         </div>
-                    </div >
+                    </div>
 
 
 
