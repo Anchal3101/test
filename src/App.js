@@ -194,7 +194,7 @@ function App() {
             studentResult.innerText = "Passed"
             studentGrade.innerText = "Average"
             studentGrade.style.color = "#2CBF6E"
-            studentResult.style.background = "#2CBF6E"
+            studentResult.style.background = "red"
             studentResult.style.color = "white"
         }
         if (value >= 0 && value <= 30) {
