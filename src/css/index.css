@@ -1,0 +1,192 @@
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+div {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#sidebar {
+    box-shadow: 0px 0px 10px 1px #0202021c;
+}
+
+#sidebar-items-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+#view-profile-button {
+    padding: 4px 10px;
+    font-weight: 600;
+    font-size: 12px;
+    color: #2CA4D8;
+    width: 100%;
+    border: 1.5px solid #2CA4D8;
+    filter: drop-shadow(0px 2px 20px rgba(56, 181, 235, 0.2));
+    border-radius: 10px;
+}
+
+#sidebarLinks>div {
+    cursor: pointer;
+}
+
+#sidebarLinks>div:hover {
+    color: #2ca4d8;
+    font-weight: bold;
+    opacity: "unset";
+    background: #eaf6fb;
+    border-radius: 10px
+}
+
+#addButton {
+    width: 123px;
+    height: 42px;
+    border-radius: 10px;
+    padding: 8px 32px;
+    gap: 8px;
+    color: white;
+    background: #2CA4D8;
+    box-shadow: 0px 2px 20px rgba(56, 181, 235, 0.2);
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.tableRow:hover {
+    background-color: #F1F4F8;
+}
+
+.modal-content {
+    border-radius: 20px !important;
+}
+
+input {
+    border-radius: 10px !important;
+}
+
+#editIcon,
+#deleteIcon {
+    cursor: pointer;
+}
+
+#actionButtons>img {
+    visibility: hidden;
+}
+
+.tableRow:hover #actionButtons>img {
+    visibility: visible;
+}
+
+
+
+#passed {
+    padding: 2px 8px;
+    font-size: 12px;
+    display: inline;
+    border-radius: 10px;
+    background-color: #2CBF6E;
+    color: white;
+}
+
+#failed {
+    padding: 2px 8px;
+    font-size: 12px;
+    display: inline;
+    border-radius: 10px;
+    color: white;
+    background-color: #F24643;
+}
+
+#poor {
+    color: #F24643;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#average {
+    color: #2CBF6E;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+#submitButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 16px;
+    gap: 10px;
+
+    border: none;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 26px;
+
+    background: #2CA4D8;
+    box-shadow: 0px 2px 20px rgba(44, 164, 216, 0.2);
+    border-radius: 10px;
+    letter-spacing: 1.5px;
+}
+
+#cancleButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 16px;
+    gap: 10px;
+
+    border: 1px solid #2CA4D8;
+    color: #2CA4D8;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 26px;
+
+    letter-spacing: 1.25px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    background-color: white;
+}
+
+
+
+
+#hambergerIcon {
+    display: none;
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 6px;
+    cursor: pointer;
+}
+
+#hambergerIcon img{
+    border: 2px solid black;
+    height: 33px;
+    padding: 6px;
+    border-radius: 0 15px 15px 0;
+}
+
+
+@media screen and (max-width: 991px) {
+    #sidebar {
+        display: none;
+    }
+    #hambergerIcon{
+        display: block;
+    }
+}
+
+@media screen and (min-width: 991px) {
+    #sidebar {
+        display: block!important;
+        position: unset!important;
+    }
+}
