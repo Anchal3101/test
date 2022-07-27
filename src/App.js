@@ -742,7 +742,6 @@ function App() {
 
         
                   id="addButton"
-                  className="AddBtn"
                   onClick={emptyInputBoxes}
                   data-bs-toggle="modal"
                   data-bs-target="#addStudent"
