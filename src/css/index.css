@@ -50,7 +50,7 @@ div {
     padding: 8px 32px;
     gap: 8px;
     color: white;
-    background: #2CA4D8;
+    background: #0d3343;
     box-shadow: 0px 2px 20px rgba(56, 181, 235, 0.2);
     border: none;
     font-size: 14px;
@@ -129,7 +129,7 @@ input {
     font-weight: bold;
     line-height: 26px;
 
-    background: #f1f3f4;
+    background: #0d974e;
     box-shadow: 0px 2px 20px rgba(44, 164, 216, 0.2);
     border-radius: 10px;
     letter-spacing: 1.5px;
@@ -152,7 +152,7 @@ input {
     letter-spacing: 1.25px;
     border-radius: 10px;
     text-transform: uppercase;
-    background-color: white;
+    background-color: rgb(206, 19, 19);
 }
 
 
