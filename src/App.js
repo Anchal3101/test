@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import './css/index.css';
+import './App.css';
 import logo from "./images/logo.PNG";
 import dashborad from "./images/dashboard.png";
 import students from "./images/students.png";
@@ -658,7 +658,7 @@ function App() {
                     src={results}
                     style={{ height: "20px", width: "20px" }}
                   />
-                  <p id="sidebar-items-text"  onClick={"www.google.com"} className="d-inline px-3">
+                  <p id="sidebar-items-text" className="d-inline px-3">
                     Results
                   </p>
                 </div>
